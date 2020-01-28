@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+</head>
+<style>
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+
+    }
+    
+    p{
+     text-align: center;
+     
+    }
+    
+    table {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:  50%;
+        height: 412px;
+        border: 1px solid rgb(177, 165, 165);
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 320px;
+   }
+  
+   
+     th{
+        background-color:lightgrey;
+        height: 40px;
+        width: 180px;
+        margin-left:auto; 
+        margin-right:auto;
+        color: grey;
+    }
+    
+   td{
+     padding: 15px;
+     border: 0ch;
+    }
+    tbody td{
+      /*
+      todos los td del cuerpo
+      */
+    border: 1px solid rgb(207, 207, 207);
+    
+  } 
+  .cuadrodos{
+      /*
+      san jose y alajuela
+      */
+      background-color:rgb(177, 174, 174);
+      color: gray;
+      
+  }
+  
+  .box p{
+     padding-top: 100px;
+     font-family: Arial, Helvetica, sans-serif;
+     
+    }
+  .leftshape{
+      /*
+      parte izquierda de las fechas
+      */
+     background-color: lightgray;
+     
+    }
+ .form-group {
+    text-align: right;
+
+</style>
+<body>
+
+    <img src="../img/logoU.PNG" alt="Logo de la universidad" >
+
+   <div id= "about me">
+        <p>
+        Nombre: Karla Campos <br>
+        <p>
+        Carrera: Ingeniería Informatica<br>
+        <p>
+        Nombre del curso: Desarollo Aplicaciones Web<br>
+        <p>
+        Número de laboratorio: #1<br>
+        </p>
+    </div>
+    <div id="gastos" class="box">
+        <p><strong >TABLA DE GASTOS</p>
+    </div>
+    <div id= "tabla" class="cuadro">
+        <table>
+         <thead>
+           <tr>
+              <th ></th>
+                <th>Comida</th>
+                <th>Hotel</th>
+                <th>Transporte</th>
+            </tr>
+         </thead>
+            <tbody>
+            <tr class="cuadrodos">
+                <td colspan="4">  San José</td>    
+            </tr>
+            <tr>
+            <td class="leftshape">1 de marzo</td>
+         
+            <td class="form-group">15</td>
+            <td class="form-group">120</td>
+            <td >-</td>
+           
+           </tr>
+           <tr>
+            <td class="leftshape">2 de marzo</td>
+          
+            <td class="form-group">18</td>
+            <td class="form-group">120</td>
+            <td class="form-group">34</td>
+           
+           </tr>
+           <tr>
+            <td class="leftshape">3 de marzo</tdclass="leftshape">
+           
+            <td class="form-group">25</td>
+            <td class="form-group">120</td>
+            <td >-</td>
+            
+           </tr>
+           <tr class="cuadrodos">
+            <td colspan="4">Alajuela</td>
+           </tr>
+           <tr>
+            <td class="leftshape">4 de marzo</td>
+            <td class="form-group">10</td>
+            <td class="form-group">75</td>
+            <td class="form-group">12</td>
+            
+           </tr>
+           <tr>
+            <td class="leftshape">5 de marzo</td>
+            <td class="form-group">12</td>
+            <td class="form-group">75</td>
+            <td class="form-group">14</td>
+            </div>
+           </tr>
+        </tbody>
+        </table> 
+        
+    </div>
+   
+</body>
+</html>
